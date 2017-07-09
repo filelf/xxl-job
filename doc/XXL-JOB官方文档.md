@@ -1,4 +1,11 @@
 # 《分布式任务调度平台XXL-JOB》
+
+[![Build Status](https://travis-ci.org/xuxueli/xxl-job.svg?branch=master)](https://travis-ci.org/xuxueli/xxl-job)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.xuxueli/xxl-job/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.xuxueli/xxl-job/)
+[![GitHub release](https://img.shields.io/github/release/xuxueli/xxl-job.svg)](https://github.com/xuxueli/xxl-job/releases)
+[![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0.html)
+[![Gitter](https://badges.gitter.im/xuxueli/xxl-job.svg)](https://gitter.im/xuxueli/xxl-job?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 ## 一、简介
 
 ### 1.1 概述
@@ -31,7 +38,7 @@ XXL-JOB是一个轻量级分布式任务调度框架，其核心设计目标是�
 ### 1.3 发展
 于2015年中，我在github上创建XXL-JOB项目仓库并提交第一个commit，随之进行系统结构设计，UI选型，交互设计……
 
-于2015-11月，XXL-JOB终于REALEASE了第一个大版本V1.0， 随后我将之发布到OSCHINA，XXL-JOB在OSCHINA上获得了@红薯的热门推荐，同期分别达到了OSCHINA的“热门动弹”排行第一和git.oschina的开源软件月热度排行第一，在此特别感谢红薯，感谢大家的关注和支持。
+于2015-11月，XXL-JOB终于RELEASE了第一个大版本V1.0， 随后我将之发布到OSCHINA，XXL-JOB在OSCHINA上获得了@红薯的热门推荐，同期分别达到了OSCHINA的“热门动弹”排行第一和git.oschina的开源软件月热度排行第一，在此特别感谢红薯，感谢大家的关注和支持。
 
 于2015-12月，我将XXL-JOB发表到我司内部知识库，并且得到内部同事认可。
 
@@ -40,7 +47,7 @@ XXL-JOB是一个轻量级分布式任务调度框架，其核心设计目标是�
 于2017-05-13，在上海举办的 "[第62期开源中国源创会](https://www.oschina.net/event/2236961)" 的 "放码过来" 环节，我登台对XXL-JOB做了演讲，台下五百位在场观众反响热烈（[图文回顾](https://www.oschina.net/question/2686220_2242120) ）。
 
 #### 我司大众点评目前已接入XXL-JOB，内部别名《Ferrari》（Ferrari基于XXL-JOB的V1.1版本定制而成，新接入应用推荐升级最新版本）。
-据最新统计, 自2016-01-21接入至2017-04-27期间，该系统已调度约45万余次，表现优异。新接入应用推荐使用最新版本，因为经过数个大版本的更新，系统的任务模型、UI交互模型以及底层调度通讯模型都有了较大的优化和提升，核心功能更加稳定高效。
+据最新统计, 自2016-01-21接入至2017-07-07期间，该系统已调度约60万余次，表现优异。新接入应用推荐使用最新版本，因为经过数个大版本的更新，系统的任务模型、UI交互模型以及底层调度通讯模型都有了较大的优化和提升，核心功能更加稳定高效。
 
 至今，XXL-JOB已接入多家公司的线上产品线，接入场景如电商业务，O2O业务和大数据作业等，截止2016-07-19为止，XXL-JOB已接入的公司包括不限于：
     
@@ -75,6 +82,8 @@ XXL-JOB是一个轻量级分布式任务调度框架，其核心设计目标是�
 	- 29、武汉空心科技有限公司
 	- 30、北京蚂蚁风暴科技有限公司
 	- 31、四川互宜达科技有限公司
+	- 32、钱包行云（北京）科技有限公司
+	- 33、重庆欣才集团
 	- ……
 
 欢迎大家的关注和使用，XXL-JOB也将拥抱变化，持续发展。
@@ -84,7 +93,7 @@ XXL-JOB是一个轻量级分布式任务调度框架，其核心设计目标是�
 #### 源码仓库地址 (将会在两个git仓库同步发布最新代码)
 
 源码仓库地址 | Release Download
--- | --
+--- | ---
 [https://github.com/xuxueli/xxl-job](https://github.com/xuxueli/xxl-job) | [Download](https://github.com/xuxueli/xxl-job/releases)  
 [http://git.oschina.net/xuxueli0323/xxl-job](http://git.oschina.net/xuxueli0323/xxl-job) | [Download](http://git.oschina.net/xuxueli0323/xxl-job/releases)
 
@@ -891,7 +900,13 @@ XXL-JOB托管在Github上，如有问题可在 [ISSUES](https://github.com/xuxue
 #### 7.2 接入登记（登记仅为了推广，产品开源免费）
 更多接入公司，欢迎在github [登记](https://github.com/xuxueli/xxl-job/issues/1 )
 
+#### 7.3 开源协议
+产品开源免费，并且将持续提供免费的社区技术支持。个人或企业内部可自由的接入和使用。
+
+XXL-JOB采用GPLv3协议，目的是为了保证用户的自由使用权利。协议可避免专利申请的特殊危险 "the GPL assures that patents cannot be used to render the program non-free.（摘自GPLv3）"。  
+
 ---
 #### 支持的话可以扫一扫，支持 [XXL系列](https://github.com/xuxueli) 的建设：）
 
-![输入图片说明](http://images2015.cnblogs.com/blog/554415/201605/554415-20160513183306234-1939652116.png "在这里输入图片标题")
+微信：![输入图片说明](https://static.oschina.net/uploads/img/201707/07214300_qhxT.png "在这里输入图片标题")
+支付宝：![输入图片说明](http://images2015.cnblogs.com/blog/554415/201605/554415-20160513183306234-1939652116.png "在这里输入图片标题")
